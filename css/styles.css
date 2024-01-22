@@ -538,6 +538,10 @@ img {
 .footer-soc-link:focus {
   background-color: #31d0aa;
 }
+.footer-input {
+  width: 264px;
+  height: 40px;
+}
 .backdrop {
   width: 100%;
   height: 100%;
