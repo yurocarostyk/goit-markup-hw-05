@@ -549,6 +549,10 @@ img {
   letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
 .footer-input {
   width: 264px;
   height: 40px;
