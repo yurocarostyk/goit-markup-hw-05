@@ -584,6 +584,7 @@ img {
   height: 100%;
   position: fixed;
   top: 0;
+  left: 0;
   background-color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
   opacity: 0;
   visibility: hidden;
