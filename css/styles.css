@@ -538,7 +538,11 @@ img {
 .footer-soc-link:focus {
   background-color: #31d0aa;
 }
-
+.footer-conteiner-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .footer-form-text {
   color: var(--WHITE, #fff);
   font-size: 16px;
