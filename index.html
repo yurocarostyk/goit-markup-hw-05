@@ -414,7 +414,7 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="footer-container container">
+      <class class="footer-container container">
         <div class="footer-container-web">
           <a href="./index.html" class="footer-logo"
             >Web<span class="footer-logo-color">Studio</span></a
@@ -477,18 +477,27 @@
             </li>
           </ul>
         </div>
-        <form class="footer-form">
-          <input
-            type="email"
-            name="footer-email"
-            class="footer-input"
-            placeholder="enter your email"
-          />
-          <button type="submit">Subscribe</button>
-        </form>
+        
+          <form class="footer-form">
+            <p class="footer-form-text">Subscribe</p>
+            <input
+              type="email"
+              name="footer-email"
+              class="footer-input"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="footer-form-btn">
+              Subscribe<svg class="footer-form-ikon" width="24" height="24">
+                <use href="./images/icons.svg#icon-Frame"></use>
+              </svg>
+            </button>
+          
+          </form>
+          
+      </class>
       </div>
     </footer>
-    <div class="backdrop"></div>
+    <div class="backdrop is-open"></div>
     <div class="modal">
       <button type="button" class="modal-close-btn">
         <svg width="24" height="24">
@@ -563,11 +572,10 @@
                 <use href="./images/icons.svg#icon-Vector-1"></use>
               </svg>
             </span>
-            I accept the terms and conditions of the
-            <a href="">Privacy Policy</a></label
+            I accept the terms and conditions of the <a href="">Privacy Policy</a></label
           >
         </div>
-        <button type="submit">Send</button>
+        <button type="submit" class="button-send">Send</button>
       </form>
     </div>
   </body>
