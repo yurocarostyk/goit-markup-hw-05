@@ -559,8 +559,8 @@ img {
   width: 264px;
   height: 40px;
   border-radius: 4px;
-  border: 1px solid #ffffff;
   background-color: transparent;
+  border: 1px solid #ffffff;
   background: var(--NAVY-BLUE, #2e2f42);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   padding: 0 16px;
@@ -588,6 +588,9 @@ img {
   justify-content: center;
   align-items: center;
   gap: 16px;
+}
+.footer-form-ikon {
+  margin-left: 16px;
 }
 
 .backdrop {
