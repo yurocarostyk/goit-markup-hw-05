@@ -631,6 +631,7 @@ img {
   right: 24px;
   width: 24px;
   height: 24px;
+  top: 24px;
   background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
@@ -710,18 +711,21 @@ img {
   width: 100%;
   height: 120px;
   border-radius: 4px;
-  border: 1px solid var(--IRIS, #4d5ae5);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   background: transparent;
-  color: #8e8f99;
+  color: rgba(46, 47, 66, 0.4);
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
     0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
   outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 8px 16px;
   resize: 0;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
 }
-.modal-fill {
-  margin-bottom: 16px;
-}
+
 .check-text {
   color: var(--LIGHT-SLATE, #8e8f99);
   font-family: Roboto;
@@ -751,12 +755,22 @@ img {
   border: 0;
   fill: #fafafa;
 }
+.label-span-policy {
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+}
 .button-send {
-  width: 169px;
+  display: block;
+  min-width: 169px;
   height: 56px;
   border-radius: 4px;
   background: var(--IRIS, #4d5ae5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #fff;
   font-size: 16px;
   font-weight: 500;
