@@ -462,11 +462,7 @@ img {
   padding: 100px 0;
   height: 312px;
 }
-.footer-all {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 .footer-container {
   margin-right: 120px;
   display: flex;
