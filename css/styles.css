@@ -747,12 +747,12 @@ img {
   color: var(--IRIS, #4d5ae5);
   text-decoration: underline;
 }
-.check-text span {
+.label-span {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 2px;
