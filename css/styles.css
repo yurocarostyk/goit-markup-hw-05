@@ -560,14 +560,13 @@ img {
   height: 40px;
   border-radius: 4px;
   border: 1px solid #ffffff;
-
+  background-color: transparent;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   padding: 0 16px;
   color: var(--WHITE, #fff);
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  background-color: transparent;
 }
 .footer-form-btn {
   color: var(--WHITE, #fff);
