@@ -464,7 +464,6 @@ img {
 }
 
 .footer-container {
-  margin-right: 120px;
   display: flex;
   align-items: baseline;
 }
@@ -499,7 +498,7 @@ img {
   height: 72px;
 }
 .footer-soc-container {
-  display: block;
+  margin-right: auto;
 }
 .footer-soc-subtitre {
   color: var(--WHITE, #fff);
@@ -553,7 +552,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 24px;
 }
 .footer-input {
   width: 264px;
