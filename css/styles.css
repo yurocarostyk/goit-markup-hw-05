@@ -747,12 +747,12 @@ img {
   color: var(--IRIS, #4d5ae5);
   text-decoration: underline;
 }
-.check-text span {
+.check-icon {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 2px;
@@ -761,7 +761,8 @@ img {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: transparent;
 }
-.label-span {
+.check-text span {
+  display: inline-flex;
 }
 .check-input:checked + .check-text span {
   background-color: #404bbf;
