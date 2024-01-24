@@ -739,7 +739,7 @@ img {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  display: flex;
+  display: inline-flex;
   align-items: center;
 }
 .check-text a {
